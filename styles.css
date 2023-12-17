@@ -52,6 +52,7 @@ button {
   display: flex;
   padding: 56px 12%;
   justify-content: space-between;
+  gap: 48px;
 }
 
 .hero-text {
@@ -69,6 +70,11 @@ button {
 .hero-text > .subtext {
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.hero > img { /*for some reason this image wants to rescale when i resize the window...*/
+  height: auto;
+  flex: none;
 }
 
 .info {
@@ -132,9 +138,13 @@ button {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
-  padding: 24px 48px;
+  padding: 48px 100px;
   margin: 48px 12%;
   gap: 24px;
+}
+
+.sign-up-card > .text > .title {
+  font-weight: bold;
 }
 
 .sign-up-card > button {
