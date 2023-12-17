@@ -21,11 +21,22 @@ img {
   width: 360px;
 }
 
+button {
+  font-weight: bold;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: none;
+}
+
 .header {
   background-color: #1F2937;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 12%;
+  
 }
 
 .logo {
@@ -37,6 +48,7 @@ img {
 .hero {
   background-color: #1F2937;
   display: flex;
+  padding: 0px 12%;
 }
 
 .hero-text > .title {
@@ -55,6 +67,7 @@ img {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  padding: 0px 12%;
 }
 
 .info-title {
@@ -84,6 +97,7 @@ img {
 
 .quote {
   background-color: #E5E7EB;
+  padding: 0px 12%;
 }
 
 .quote-text {
@@ -100,12 +114,22 @@ img {
 }
 
 .sign-up-card {
+  background-color: #3882F6;
+  border-radius: 16px;
   display: flex;
   justify-content: space-between;
+  padding: 24px 48px;
+  margin: 0px 12%;
+}
+
+.sign-up-card > button {
+  border: 2px solid white;
 }
 
 .footer {
   color: #E5E7EB;
   background-color: #1F2937;
   text-align: center;
+  padding: 0px 12%;
 }
+
