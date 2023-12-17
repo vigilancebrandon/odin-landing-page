@@ -1,0 +1,19 @@
+body {
+  font-family: roboto, helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.header {
+  background-color: ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
