@@ -18,6 +18,10 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 360px;
 }
@@ -58,7 +62,7 @@ button {
 .hero-text {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .hero-text > .title {
@@ -115,8 +119,11 @@ button {
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 128px 12%;
+  gap: 8px;
 }
 
 .quote-text {
