@@ -6,7 +6,6 @@ body {
 }
 
 ul {
-  color: #E5E7EB;
   font-size: 18px;
   list-style-type: none;
   display: flex;
@@ -20,7 +19,7 @@ p {
 
 a, 
 a:visited {
-  color: inherit;
+  color: #E5E7EB;
   text-decoration: none;
 }
 
