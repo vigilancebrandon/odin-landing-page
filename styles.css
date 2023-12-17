@@ -2,6 +2,7 @@ body {
   font-family: roboto, helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 ul {
@@ -28,6 +29,7 @@ button {
   padding: 8px 32px;
   border-radius: 8px;
   border: none;
+  width: max-content;
 }
 
 .header {
@@ -36,7 +38,7 @@ button {
   align-items: center;
   justify-content: space-between;
   padding: 0px 12%;
-  
+  margin: 0px;
 }
 
 .logo {
@@ -48,14 +50,21 @@ button {
 .hero {
   background-color: #1F2937;
   display: flex;
-  padding: 0px 12%;
+  padding: 56px 12%;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .hero-text > .title {
-  color: #E5E7EB;
+  color: #F9FAF8;
   font-size: 48px;
   font-weight: 900;
-}
+} 
 
 .hero-text > .subtext {
   color: #E5E7EB;
@@ -67,7 +76,8 @@ button {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding: 0px 12%;
+  padding: 48px 12%;
+  gap: 36px
 }
 
 .info-title {
@@ -79,6 +89,7 @@ button {
 .info-cards {
   display: flex;
   gap: 36px;
+  color: grey;
 }
 
 .card {
@@ -87,6 +98,7 @@ button {
   align-items: center;
   text-align: center;
   width: min-content;
+  gap: 8px;
 }
 
 .info-cards > * > img {
@@ -97,7 +109,8 @@ button {
 
 .quote {
   background-color: #E5E7EB;
-  padding: 0px 12%;
+  justify-content: center;
+  padding: 128px 12%;
 }
 
 .quote-text {
@@ -115,11 +128,12 @@ button {
 
 .sign-up-card {
   background-color: #3882F6;
-  border-radius: 16px;
+  color: #F9FAF8;
+  border-radius: 8px;
   display: flex;
   justify-content: space-between;
   padding: 24px 48px;
-  margin: 0px 12%;
+  margin: 48px 12%;
 }
 
 .sign-up-card > button {
@@ -127,9 +141,12 @@ button {
 }
 
 .footer {
+
   color: #E5E7EB;
   background-color: #1F2937;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
   padding: 0px 12%;
 }
-
