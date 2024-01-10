@@ -68,10 +68,16 @@
         <p class="title">Dogs! They are here!</p>
         <p class="subtext">Click the dog button to confirm: Doggies!</p>
       </div>
-      <button>Dog button</button>
+      <button class="sign-up-button">Dog button</button>
     </div>
     <div class="footer">
       Copyright &#169 The Odin Project 2021
     </div>
   </body>
+  <script>
+    const btns = document.querySelectorAll('.sign-up-button');
+    btns.forEach((btn) => 
+    btn.addEventListener('click', () => alert('Dog!'))
+    );
+  </script>
 </html>
