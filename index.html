@@ -75,9 +75,12 @@
     </div>
   </body>
   <script>
-    const btns = document.querySelectorAll('.sign-up-button');
-    btns.forEach((btn) => 
-    btn.addEventListener('click', () => alert('Dog!'))
-    );
+    document.addEventListener('click', (event) => {
+      let target = event.target;
+
+      if (target.className === 'sign-up-button') {
+        alert('Dog!');
+      };
+    });
   </script>
 </html>
